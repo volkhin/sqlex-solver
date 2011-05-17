@@ -1,0 +1,4 @@
+SELECT hd
+FROM pc
+GROUP BY hd
+HAVING COUNT('1') > 1
